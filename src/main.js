@@ -3,6 +3,19 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
+// Require Bootstrap
+const bootstrap = require('bootstrap')
+
+Vue.use(bootstrap)
+
+// Import Index.css
+import './index.css'
+
+// Import Popper Js
+import { createPopper } from '@popperjs/core';
+
+Vue.use(createPopper)
+
 new Vue({
-  render: h => h(App),
+    render: h => h(App),
 }).$mount('#app')

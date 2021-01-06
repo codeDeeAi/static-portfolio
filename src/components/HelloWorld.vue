@@ -151,7 +151,7 @@ export default {
                     details: "A simple webpage with  HTML, CSS, Tailwind Css, JavaScript, and Vue Js that gets jokes from an open source API based on the user's filters",
                     languages:['JavaScript', 'Vue Js'],
                     git:'https://github.com/codeDeeAi/get_jokes_from_open_source_api.git',
-                    web:''
+                    web:'https://nifty-varahamihira-b5b934.netlify.app'
                 },
                 {
                     title: 'Portfolio (WebApp)',
@@ -200,7 +200,7 @@ export default {
                     details: "A simple recreation of twitter's landing page with just HTML, CSS, bootstrap and Simple JavaScript",
                     languages:['JavaScript'],
                     git:'https://github.com/codeDeeAi/Twitter.git',
-                    web:''
+                    web:'https://xenodochial-curran-dc0dce.netlify.app'
                 },
                 {
                     title: 'Diamond Bridge of Desmond',
@@ -214,14 +214,28 @@ export default {
                     details: "A simple landing page for a laundry business with just HTML, CSS, bootstrap and JavaScript",
                     languages:['JavaScript'],
                     git:'https://github.com/codeDeeAi/Bwort.git',
-                    web:''
+                    web:'https://cranky-lumiere-7fb2f2.netlify.app'
                 },
                 {
                     title: 'Sunview',
                     details: "A simple landing page with just HTML, CSS, bootstrap and Simple JavaScript. Created to show the different ways carousels and grids can be used",
                     languages:['JavaScript'],
                     git:'https://github.com/codeDeeAi/sunny.git',
-                    web:''
+                    web:'https://sunny-play.netlify.app'
+                },
+                {
+                    title: 'Afann',
+                    details: "A simple landing page with just HTML, CSS, bootstrap and Simple JavaScript. Created to while learning Html",
+                    languages:['Html', 'Css'],
+                    git:'https://github.com/codeDeeAi/Afan.git',
+                    web:'https://awesome-volhard-cc768d.netlify.app'
+                },
+                {
+                    title: 'Aveon',
+                    details: "A simple landing page with just HTML, CSS, bootstrap and Simple JavaScript. Created to while learning Html",
+                    languages:['Html', 'Css'],
+                    git:' https://github.com/codeDeeAi/Aveon.git',
+                    web:'https://admiring-dubinsky-fc9f6a.netlify.app'
                 },
                 {
                     title: 'My Old Portfolio',

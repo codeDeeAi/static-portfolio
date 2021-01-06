@@ -6,6 +6,11 @@ Vue.config.productionTip = false
 // Require Bootstrap
 const bootstrap = require('bootstrap')
 
+// Require JQuery
+// var $ = require("jquery")
+
+// Vue.use($)
+
 Vue.use(bootstrap)
 
 // Import Index.css

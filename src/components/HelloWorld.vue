@@ -51,7 +51,7 @@
                 <p class="h3 py-3">A brief intro about me</p>
                 <p>
                     I am a graduate of Civil Engineering from  Federal University, Oye-Ekiti, Nigeria.
-                    My Interest in computers has led me to pursue a career in software development which serves a medium of bringing my ideas to the limelight. <br>
+                    My Interest in computers has led me to pursue a career in software development which serves as a medium of bringing my ideas to the limelight. <br>
                     I'm a self taught software developer whose interest lies in providing fast, simple, easy to use and efficient solutions to  people who need them.
                 </p>
                 <p class="h3 py-3">Skills </p>

@@ -6,7 +6,7 @@
         <nav class="navbar navbar-light bg-indigo-400 my-2 rounded hover:shadow">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img src="/images/4.jpg" alt="" width="30" height="24" class="d-inline-block align-top">
+              <!-- <img src="/images/4.jpg" alt="" width="30" height="24" class="d-inline-block align-top"> -->
               <span class="font-sanserif px-4 text-xl font-semibold">Adeola's Portfolio</span>
             </a>
             <div class="flex justify-end">
@@ -139,6 +139,20 @@ export default {
       copyright: " All rights reserved | Designed by ",
       name: "Bada Adeola O.",
       projects:[
+                {
+                    title: 'Issue Tracker',
+                    details: "Issue Tracker for quality assurance testing",
+                    languages:['JavaScript', 'Vue Js', 'Php', 'Laravel'],
+                    git:'https://github.com/codeDeeAi/issue_tracker.git',
+                    web:''
+                },
+                {
+                    title: `Adriano's home`,
+                    details: "A portfolio, blog and mini ecommerce store ",
+                    languages:['JavaScript', 'Vue Js', 'Php', 'Laravel'],
+                    git:'',
+                    web:'https://adrianoolatigbe.com'
+                },
                 {
                     title: 'Vue Js Windows History Buttons',
                     details: "A highly customizable Vue Js 3 plugin for controlling browser history pages (next and previous)",

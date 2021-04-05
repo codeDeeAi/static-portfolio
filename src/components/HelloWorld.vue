@@ -770,7 +770,7 @@ export default {
         {
           title: "Get Jokes Page",
           details:
-            "A simple webpage with  HTML, CSS, Tailwind Css, JavaScript, and Vue Js that gets jokes from an open source API based on the user's filters",
+            "A simple webpage with  HTML, CSS, Tailwind Css, JavaScript, and Vue Js that gets jokes from an open source API based on the user's preferred filter",
           languages: ["JavaScript", "Vue Js"],
           git:
             "https://github.com/codeDeeAi/get_jokes_from_open_source_api.git",
@@ -906,7 +906,7 @@ export default {
           type: 'Certification',
         },
         {
-          item: 'Laravel Trivial',
+          item: 'Laravel Trivia',
           type: 'Project',
         },
       ]

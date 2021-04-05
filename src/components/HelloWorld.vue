@@ -902,7 +902,7 @@ export default {
           type: 'Python Framework',
         },
         {
-          item: 'UI/UX Design by Google',
+          item: 'UI/UX Design Course by Google',
           type: 'Certification',
         },
         {

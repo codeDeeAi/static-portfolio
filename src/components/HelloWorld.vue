@@ -17,7 +17,9 @@
           <!-- Header Ends -->
           <!-- Introduction -->
           <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div class="mt-auto mb-auto md:flex justify-around md:flex-row-reverse">
+            <div
+              class="mt-auto mb-auto md:flex justify-around md:flex-row-reverse"
+            >
               <div class="container">
                 <figure class="figure flex justify-center">
                   <img
@@ -315,13 +317,13 @@
                 class="grid gap-6 grid-cols-3 md:grid-cols-5 md:col-span-2 lg:col-span-3"
               >
                 <div
-                  class="rounded lg:p-5 transition duration-300 hover:bg-indigo-50 cursor"
+                  class="rounded transition duration-300 hover:bg-indigo-50 cursor"
                 >
                   <div class="flex items-center justify-around mb-1">
                     <img
                       src="/images/assets/html2.png"
                       alt=""
-                      class="img-fluid"
+                      class="img-fluid w-3/6"
                     />
                   </div>
                 </div>
@@ -332,7 +334,7 @@
                     <img
                       src="/images/assets/css.png"
                       alt=""
-                      class="img-fluid"
+                      class="img-fluid w-3/6"
                     />
                   </div>
                 </div>
@@ -340,7 +342,11 @@
                   class="rounded lg:p-5 transition duration-300 hover:bg-indigo-50 cursor"
                 >
                   <div class="flex items-center justify-around mb-1">
-                    <img src="/images/assets/js.png" alt="" class="img-fluid" />
+                    <img
+                      src="/images/assets/js.png"
+                      alt=""
+                      class="img-fluid w-3/6"
+                    />
                   </div>
                 </div>
                 <div
@@ -350,7 +356,7 @@
                     <img
                       src="/images/assets/vue.png"
                       alt=""
-                      class="img-fluid"
+                      class="img-fluid w-3/6"
                     />
                   </div>
                 </div>
@@ -361,7 +367,7 @@
                     <img
                       src="/images/assets/php.png"
                       alt=""
-                      class="img-fluid"
+                      class="img-fluid w-3/6"
                     />
                   </div>
                 </div>
@@ -372,7 +378,7 @@
                     <img
                       src="/images/assets/laravel.png"
                       alt=""
-                      class="img-fluid"
+                      class="img-fluid w-3/6"
                     />
                   </div>
                 </div>
@@ -383,7 +389,7 @@
                     <img
                       src="/images/assets/sql.png"
                       alt=""
-                      class="img-fluid"
+                      class="img-fluid w-3/6"
                     />
                   </div>
                 </div>
@@ -394,7 +400,7 @@
                     <img
                       src="/images/assets/bootstrap.png"
                       alt=""
-                      class="img-fluid"
+                      class="img-fluid w-3/6"
                     />
                   </div>
                 </div>
@@ -405,7 +411,7 @@
                     <img
                       src="/images/assets/tailwind.png"
                       alt=""
-                      class="img-fluid"
+                      class="img-fluid w-3/6"
                     />
                   </div>
                 </div>
@@ -416,7 +422,7 @@
                     <img
                       src="/images/assets/mcss.png"
                       alt=""
-                      class="img-fluid"
+                      class="img-fluid w-3/6"
                     />
                   </div>
                 </div>
@@ -427,7 +433,7 @@
                     <img
                       src="/images/assets/git.png"
                       alt=""
-                      class="img-fluid"
+                      class="img-fluid w-3/6"
                     />
                   </div>
                 </div>
@@ -438,7 +444,7 @@
                     <img
                       src="/images/assets/github.png"
                       alt=""
-                      class="img-fluid"
+                      class="img-fluid w-3/6"
                     />
                   </div>
                 </div>
@@ -566,19 +572,33 @@
                 </span>
               </h2>
             </div>
-          <div class="max-w-lg space-y-3 sm:mx-auto lg:max-w-xl">
-            <div v-for="(item , index) in todo" :key="index" class="items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
-              <div class="flex">
-                <div class="mr-2">
-                <svg class="w-6 h-6 text-deep-purple-accent-400 sm:w-8 sm:h-8" stroke="currentColor" viewBox="0 0 52 52">
-                  <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-                </svg>
+            <div class="max-w-lg space-y-3 sm:mx-auto lg:max-w-xl">
+              <div
+                v-for="(item, index) in todo"
+                :key="index"
+                class="items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110"
+              >
+                <div class="flex">
+                  <div class="mr-2">
+                    <svg
+                      class="w-6 h-6 text-deep-purple-accent-400 sm:w-8 sm:h-8"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="3"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </div>
+                  <span class="text-gray-900">{{ item.item }}</span>
+                </div>
+                <p class="text-gray-600 text-sm mt-2">{{ item.type }}</p>
               </div>
-              <span class="text-gray-900">{{item.item}}</span>
-              </div>              
-              <p class="text-gray-600 text-sm mt-2">{{item.type}}</p>
             </div>
-          </div>
           </div>
           <!-- To Do End -->
           <!-- Contact Us -->
@@ -692,7 +712,7 @@
         To: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
     -->
         <div
-          class="inline-block align-top bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8  sm:max-w-lg sm:w-full"
+          class="inline-block align-top bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:max-w-lg sm:w-full"
         >
           <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
             <div class="sm:flex sm:items-start">
@@ -701,14 +721,19 @@
                   class="text-lg leading-6 font-medium text-gray-900"
                   id="modal-title"
                 >
-                  {{eachProject.title}}
+                  {{ eachProject.title }}
                 </h3>
                 <div class="mt-2">
-                   <div class="w-full block">
-                      <video controls class="rounded-xl" height="100%" width="100%" >
-                        <source :src="eachProject.video" type="video/mp4">
+                  <div class="w-full block">
+                    <video
+                      controls
+                      class="rounded-xl"
+                      height="100%"
+                      width="100%"
+                    >
+                      <source :src="eachProject.video" type="video/mp4" />
                     </video>
-                   </div>
+                  </div>
                   <!-- <p class="text-sm text-gray-500">
                    {{eachProject}}
                   </p> -->
@@ -716,7 +741,7 @@
               </div>
             </div>
           </div>
-          <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">            
+          <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
             <button
               type="button"
               @click="closeModal()"
@@ -749,7 +774,7 @@ export default {
           languages: ["JavaScript", "Vue Js", "Php", "Laravel"],
           git: "https://github.com/codeDeeAi/issue_tracker.git",
           web: "",
-          video: "/videos/bugtracker.mp4"
+          video: "/videos/bugtracker.mp4",
         },
         {
           title: `Adriano's home`,
@@ -791,7 +816,7 @@ export default {
           languages: ["Laravel 8", "Vue Js", "Sql"],
           git: "https://github.com/codeDeeAi/ToDoApp.git",
           web: "",
-          video: "/videos/todo.mp4"
+          video: "/videos/todo.mp4",
         },
         {
           title: "LaraBlog",
@@ -800,7 +825,7 @@ export default {
           languages: ["Laravel 7", "Vue Js", "Sql"],
           git: "https://github.com/codeDeeAi/Larablog.git",
           web: "",
-          video: "/videos/larablog.mp4"
+          video: "/videos/larablog.mp4",
         },
         {
           title: "TFLM",
@@ -808,7 +833,7 @@ export default {
           languages: ["JavaScript", "Php", "Sql"],
           git: "https://github.com/codeDeeAi/TFLM.git",
           web: "",
-          video: "/videos/tflm.mp4"
+          video: "/videos/tflm.mp4",
         },
         {
           title: "KYC Loan App",
@@ -817,7 +842,7 @@ export default {
           languages: ["JavaScript", "Php", "Sql"],
           git: "https://github.com/codeDeeAi/kyc-loan-app.git",
           web: "",
-          video: "/videos/xyz.mp4"
+          video: "/videos/xyz.mp4",
         },
         {
           title: "RyseHub",
@@ -884,32 +909,32 @@ export default {
           web: "",
         },
       ],
-      todo:[
+      todo: [
         {
-          item: 'Learn GO',
-          type: 'Programming Language',
+          item: "Learn GO",
+          type: "Programming Language",
         },
         {
-          item: 'Learn ECHO',
-          type: 'Golang Framework',
+          item: "Learn ECHO",
+          type: "Golang Framework",
         },
         {
-          item: 'Learn Python',
-          type: 'Programming Language',
+          item: "Learn Python",
+          type: "Programming Language",
         },
         {
-          item: 'Learn Django',
-          type: 'Python Framework',
+          item: "Learn Django",
+          type: "Python Framework",
         },
         {
-          item: 'UI/UX Design Course by Google',
-          type: 'Certification',
+          item: "UI/UX Design Course by Google",
+          type: "Certification",
         },
         {
-          item: 'Laravel Trivia',
-          type: 'Project',
+          item: "Laravel Trivia",
+          type: "Project",
         },
-      ]
+      ],
     };
   },
   methods: {
@@ -921,12 +946,12 @@ export default {
       this.eachProject = project;
 
       // Open Modal
-      this.show = true
+      this.show = true;
     },
-    closeModal(){
+    closeModal() {
       // Open Modal
-      this.show = false
-    }
+      this.show = false;
+    },
   },
   created() {},
   mounted() {},

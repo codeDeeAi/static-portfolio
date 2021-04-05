@@ -12,25 +12,25 @@
             <p class="text-center display-4">
               My name is <span class="font-bold">Bada Adeola O.</span>
             </p>
-            <p class="text-center h3 my-3 display-6">Welcome to my Portfolio</p>
+            <!-- <p class="text-center h3 my-3 display-6">Welcome to my Portfolio</p> -->
           </div>
           <!-- Header Ends -->
           <!-- Introduction -->
           <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div class="mt-auto mb-auto">
+            <div class="mt-auto mb-auto md:flex justify-around md:flex-row-reverse">
               <div class="container">
-                <figure class="figure">
+                <figure class="figure flex justify-center">
                   <img
                     src="/images/4.jpg"
-                    class="img-fluid rounded-2xl"
+                    class="rounded-2xl img-fluid h-56 sm:h-96"
                     alt="..."
                   />
                 </figure>
               </div>
               <!-- Connect with me -->
               <div>
-                <p class="text-center py-3 h5">Lets be social</p>
-                <ul class="flex justify-between container">
+                <p class="text-center py-3 h5 md:hidden">Lets be social</p>
+                <ul class="flex justify-between container md:block md:gap-y-4">
                   <li>
                     <a
                       class="btn border-indigo-400 py-1 px-2 shadow hover:bg-indigo-400 hover:text-white animate-pulse delay-300"
@@ -210,7 +210,7 @@
                           ></polygon>
                         </svg>
                       </span>
-                      Sufficient understanding of APIs and web security
+                      Sufficient understanding of REST APIs and web security
                     </li>
                     <li class="flex items-start">
                       <span class="mr-1">
@@ -562,7 +562,7 @@
                       height="24"
                     ></rect>
                   </svg>
-                  <span class="relative">Future Task</span>
+                  <span class="relative">Future Tasks</span>
                 </span>
               </h2>
             </div>
@@ -745,7 +745,7 @@ export default {
         {
           title: "Issue/Bug Tracker",
           details:
-            "Issue/Bug Tracker for recording bugs/defects quality assurance testers",
+            "Issue/Bug Tracker for recording bugs/defects quality assurance testers. Manage Teams, Assign Tasks & Export to excel sheet",
           languages: ["JavaScript", "Vue Js", "Php", "Laravel"],
           git: "https://github.com/codeDeeAi/issue_tracker.git",
           web: "",
@@ -787,7 +787,7 @@ export default {
         {
           title: "OneHourToDo Application",
           details:
-            "A Project Based on a challenge to build a ToDo App with Laravel and Vue Js unde One Hour",
+            "A Project Based on a challenge to build a ToDo App with Laravel and Vue Js in One Hour",
           languages: ["Laravel 8", "Vue Js", "Sql"],
           git: "https://github.com/codeDeeAi/ToDoApp.git",
           web: "",

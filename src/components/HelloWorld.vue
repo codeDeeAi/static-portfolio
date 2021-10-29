@@ -37,7 +37,7 @@
                     <a
                       class="btn border-indigo-400 py-1 px-2 shadow hover:bg-indigo-400 hover:text-white animate-pulse delay-300"
                       target="_blank"
-                      href="linkedin.com/in/adeola-bada-aiism-a51174124"
+                      href="https://linkedin.com/in/adeola-bada-aiism-a51174124"
                       ><i class="fab fa-linkedin fa-2x mr-auto"></i>
                     </a>
                   </li>
@@ -248,7 +248,7 @@
                           ></polygon>
                         </svg>
                       </span>
-                      Proficient with HTML, CSS, JavaScript, Vue JS, Php,
+                      Proficient with HTML, CSS, JavaScript, Vue JS, Nuxt Js, Php,
                       Laravel & SQL
                     </li>
                     <li class="flex items-start">
@@ -355,6 +355,17 @@
                   <div class="flex items-center justify-around mb-1">
                     <img
                       src="/images/assets/vue.png"
+                      alt=""
+                      class="img-fluid w-3/6"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="rounded lg:p-5 transition duration-300 hover:bg-indigo-50 cursor"
+                >
+                  <div class="flex items-center justify-around mb-1">
+                    <img
+                      src="/images/assets/nuxt.ico"
                       alt=""
                       class="img-fluid w-3/6"
                     />
@@ -609,7 +620,7 @@
                   <a
                     class="btn border-indigo-400 py-1 px-2 shadow hover:bg-indigo-400 hover:text-white animate-pulse delay-700"
                     target="_blank"
-                    href="linkedin.com/in/adeola-bada-aiism-a51174124"
+                    href="https://linkedin.com/in/adeola-bada-aiism-a51174124"
                     ><i class="fab fa-linkedin fa-2x mr-auto"></i>
                   </a>
                 </li>
@@ -768,6 +779,33 @@ export default {
       eachProject: [],
       projects: [
         {
+          title: "Finance Tracker/Logger",
+          details:
+            "Finance Tracker/Logger helps users track daily income, expenses and saving for different accounts and also outputs results via lists and charts",
+          languages: ["JavaScript", "Vue Js", "Php", "Laravel"],
+          git: "https://github.com/codeDeeAi/financeloggerclient",
+          web: "https://finance-logger-client.herokuapp.com/",
+          video: "",
+        },
+        {
+          title: "Hulo (Realtor's portal)",
+          details:
+            "Real estate marketplace (PWA)",
+          languages: ["JavaScript", "Vue Js", "Nuxt Js", "Php", "Laravel", "SQL", "AWS S3"],
+          git: "",
+          web: "http://hulo-2.herokuapp.com/",
+          video: "",
+        },
+        {
+          title: "Hulo (Buyer)",
+          details:
+            "Real estate marketplace (PWA)",
+          languages: ["JavaScript", "Vue Js", "Nuxt Js", "Php", "Laravel", "SQL", "AWS S3"],
+          git: "",
+          web: "http://hulo-1.herokuapp.com/",
+          video: "",
+        },
+        {
           title: "Issue/Bug Tracker",
           details:
             "Issue/Bug Tracker for recording bugs/defects quality assurance testers. Manage Teams, Assign Tasks & Export to excel sheet",
@@ -800,14 +838,6 @@ export default {
           git:
             "https://github.com/codeDeeAi/get_jokes_from_open_source_api.git",
           web: "https://nifty-varahamihira-b5b934.netlify.app",
-        },
-        {
-          title: "Portfolio (WebApp)",
-          details:
-            "My new Portfolio designed with Laravel 8 and Vue Js , to showcase some of the works done by me",
-          languages: ["Laravel 8", "Vue Js", "Sql"],
-          git: "https://github.com/codeDeeAi/New-Portfolio.git",
-          web: "",
         },
         {
           title: "OneHourToDo Application",
@@ -863,51 +893,12 @@ export default {
         {
           title: "Diamond Bridge of Desmond",
           details:
-            "A simple webpage with  HTML, CSS, bootstrap, JavaScript, Vue Js and Materialize CSS ",
+            "Construction company webpage with  HTML, CSS,  JavaScript, Vue Js and Materialize CSS ",
           languages: ["JavaScript", "Vue Js"],
-          git: "https://github.com/codeDeeAi/Diamond-Bridge-.git",
+          git: "",
           web: "https://www.diamondbridgeofdesmond.com",
         },
-        {
-          title: "Bwort",
-          details:
-            "A simple landing page for a laundry business with just HTML, CSS, bootstrap and JavaScript",
-          languages: ["JavaScript"],
-          git: "https://github.com/codeDeeAi/Bwort.git",
-          web: "https://cranky-lumiere-7fb2f2.netlify.app",
-        },
-        {
-          title: "Sunview",
-          details:
-            "A simple landing page with just HTML, CSS, bootstrap and Simple JavaScript. Created to show the different ways carousels and grids can be used",
-          languages: ["JavaScript"],
-          git: "https://github.com/codeDeeAi/sunny.git",
-          web: "https://sunny-play.netlify.app",
-        },
-        {
-          title: "Afann",
-          details:
-            "A simple landing page with just HTML, CSS, bootstrap and Simple JavaScript. Created to while learning Html",
-          languages: ["Html", "Css"],
-          git: "https://github.com/codeDeeAi/Afan.git",
-          web: "https://awesome-volhard-cc768d.netlify.app",
-        },
-        {
-          title: "Aveon",
-          details:
-            "A simple landing page with just HTML, CSS, bootstrap and Simple JavaScript. Created to while learning Html",
-          languages: ["Html", "Css"],
-          git: " https://github.com/codeDeeAi/Aveon.git",
-          web: "https://admiring-dubinsky-fc9f6a.netlify.app",
-        },
-        {
-          title: "My Old Portfolio",
-          details:
-            "A landing page with  HTML, CSS , bootstrap, Simple JavaScript and VueJS. Created to show the various designs made by me",
-          languages: ["JavaScript", "Vue Js"],
-          git: "https://github.com/codeDeeAi/Portfolio.git",
-          web: "",
-        },
+       
       ],
       todo: [
         {
@@ -915,24 +906,8 @@ export default {
           type: "Programming Language",
         },
         {
-          item: "Learn ECHO",
-          type: "Golang Framework",
-        },
-        {
           item: "Learn Python",
           type: "Programming Language",
-        },
-        {
-          item: "Learn Django",
-          type: "Python Framework",
-        },
-        {
-          item: "UI/UX Design Course by Google",
-          type: "Certification",
-        },
-        {
-          item: "Laravel Trivia",
-          type: "Project",
         },
       ],
     };
